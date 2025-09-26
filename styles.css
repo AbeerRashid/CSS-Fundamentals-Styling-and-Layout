@@ -47,19 +47,18 @@ input[type="password"] {
   align-items: center;
 }
 
-.item {
+.button1 button {
   flex: 1;
   padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
   background-color: darkblue;
   margin: 5px;
 }
-
-input[type="submit"]:hover {
-  background-color: darkblue;
-}
-
-.item:hover {
-  background-color: navy;
+.button1 button:hover {
+  background-color: blue;
+  cursor: pointer;
 }
 
 footer {
